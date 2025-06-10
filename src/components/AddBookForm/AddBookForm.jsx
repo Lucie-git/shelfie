@@ -43,7 +43,6 @@ export const AddBookForm = () => {
     fetchStatuses();
   }, []);
 
-  console.log('formData', formData);
 
   const handleCreate = (inputValue, inputName) => {
     setIsLoadingSelect(true);

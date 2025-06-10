@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const BookItem = ({ bookId, author, title }) => {
   const randomColor = () => {
-    // Vygenerujeme r, g, b od 50 do 150 (středně tmavé barvy)
+    
     const r = Math.floor(50 + Math.random() * 100);
     const g = Math.floor(50 + Math.random() * 100);
     const b = Math.floor(50 + Math.random() * 100);
