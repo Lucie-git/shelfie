@@ -31,8 +31,6 @@
   display: none;
 }
 
-/*Naviagtion styles*/
-
 .nav-icon {
   display: inline-block;
   text-decoration: none;
@@ -54,8 +52,6 @@
   border-radius: 6px;
 }
 
-/*uprav velkost ikon*/
-
 .nav-icon img {
   width: 2rem;
   height: 2rem;
@@ -63,8 +59,6 @@
 }
 
 .logo-header-small {
-  /*left: 20px;
-  top: 20px;*/
   display: block;
   width: 3rem;
   margin-top: 8px;

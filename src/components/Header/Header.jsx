@@ -22,9 +22,9 @@ export const Header = () => {
     const handleOutsideClick = (e) => {
       if (
         menuRef.current &&
-        !menuRef.current.contains(e.target) && // mimo menu
+        !menuRef.current.contains(e.target) &&
         iconRef.current &&
-        !iconRef.current.contains(e.target) // a mimo ikonu
+        !iconRef.current.contains(e.target)
       ) {
         setMenuOpened(false);
       }

@@ -189,7 +189,6 @@ export const AddBookForm = () => {
         />
       </div>
       <div className="form-buttons">
-        {/* <button type="submit">Vyhledat ISBN</button> */}
         <button type="submit">Přidat knihu</button>
       </div>
     </form>
