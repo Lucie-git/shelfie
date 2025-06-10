@@ -43,12 +43,10 @@ export const AddBookForm = () => {
     fetchStatuses();
   }, []);
 
-
   const handleCreate = (inputValue, inputName) => {
     setIsLoadingSelect(true);
     setTimeout(() => {
       setIsLoadingSelect(false);
-      console.log('input value:', inputValue);
       const authorId = addAuthor({
         name: inputValue,
         metaData: '',
